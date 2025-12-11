@@ -95,8 +95,8 @@ This repository includes a stress test script to verify the server's stability u
 # Run the stress test
 ./stress_test.sh
 ```
+### 📂 Project Structure
 ```text
-📂 Project Structure
 ft_irc/
 ├── Makefile
 ├── main.cpp                # Entry point & validation
