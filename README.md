@@ -63,6 +63,7 @@ cd ft_irc
 make
 ```
 ### 2. Start the Server
+```bash
 
 The server requires a Port and a Password as arguments.
 
@@ -71,8 +72,9 @@ The server requires a Port and a Password as arguments.
 Example:
 
 ./ircserv 6667 42password
-
+```
 ### 3. Connect a Client
+```bash
 
 You can connect using nc (Netcat) for raw testing or a GUI client like Irssi or HexChat.
 
@@ -85,14 +87,14 @@ PASS 42password
 NICK my_user
 
 USER my_user 0 * :Real Name
-
+```
 🧪 Testing
-
+```bash
 This repository includes a stress test script to verify the server's stability under load.
 
 # Run the stress test
 ./stress_test.sh
-
+```
 ```text
 📂 Project Structure
 ft_irc/
