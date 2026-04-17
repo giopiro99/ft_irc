@@ -16,7 +16,7 @@ Unlike modern web servers, this project requires manual management of TCP socket
 * **Operators:** Special privileges for channel operators (Kick, Invite, Topic, Mode).
 
 ### 🤖 Bonus Features (Implemented)
-* **File Transfer:** (If implemented in your version, otherwise remove this line).
+* **File Transfer:**
 * **IRC Bot:** An automated bot responding to custom commands.
 * **Signal Handling:** Graceful shutdown on `SIGINT` / `SIGQUIT`.
 
